@@ -11,7 +11,12 @@ export default function App() {
       <main>
         <Dictionary />
       </main>
-      <footer><small>Coded by Brenann Francis</small></footer>
+      <footer>
+      This project was coded by Brenann Francis and is{" "}
+      <a href="https://github.com/brenann-lsf/react-dictionary-app" rel="noreferrer" target="_blank">
+        open-sourced on GitHub
+      </a>
+    </footer>
       </div>
     </div>
   );
