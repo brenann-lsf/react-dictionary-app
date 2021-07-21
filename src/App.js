@@ -9,13 +9,14 @@ export default function App() {
       <div className="container">
         <header>Dictionary</header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="ocean"/>
       </main>
       <footer>
-      This project was coded by Brenann Francis and is{" "}
+      <small>This project was coded by Brenann Francis and is{" "}
       <a href="https://github.com/brenann-lsf/react-dictionary-app" rel="noreferrer" target="_blank">
         open-sourced on GitHub
       </a>
+      </small>
     </footer>
       </div>
     </div>
